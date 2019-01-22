@@ -89,7 +89,6 @@ def draw_circles(point):
         turtle.pen_down()
         turtle.draw_circle(15 * k)  # Radius 15, 30, 45, 60, ...
 
-
 ###############################################################################
 # DONE: 3a.
 #   The function
@@ -147,7 +146,6 @@ def better_draw_circles(point, initial_radius):
         turtle.pen_down()
         turtle.draw_circle(initial_radius * k)  # Radius 15, 30, 45, 60, ...
 
-
 ###############################################################################
 # DONE: 4a.
 #   In the previous _TODO_, you made a MORE POWERFUL version
@@ -178,6 +176,7 @@ def better_draw_circles(point, initial_radius):
 #   correct and does indeed use its parameters per their descriptions above.
 #
 ###############################################################################
+
 
 def even_better_draw_circles(point, initial_radius, number, color, thickness):
     """ An improved version of draw_circles, per the _TODO_ above. """
